@@ -1,0 +1,2 @@
+SELECT * FROM InfoUser as i WHERE i.mon_max > 4000000
+ORDER BY tasa;
