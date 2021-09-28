@@ -44,5 +44,6 @@ class InfoUserViewSet(viewsets.ModelViewSet):
 
             else:
                 return Response({"msg": "No hay socio disponible"})
-    
+        else:
+            return Response({"error": "El valor de monto debe ser un entero"})
         return Response({"error": "Algo extraño ha pasado"})
