@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'grupodot.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'users',
-        'USER': 'scrummers',
-        'PASSWORD': 'root',
+        'NAME': 'databaseName',
+        'USER': 'user',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '',
         'OPTIONS':{
